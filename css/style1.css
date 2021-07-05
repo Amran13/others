@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhhY2tpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+    font-size: 18px;
+
+}
+li{
+    display: inline-block;
+    margin-right: 15px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+li .active a{
+    background-color: greenyellow;
+    color: black;
+
+}
+.title{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    letter-spacing: 5px;
+    color:greenyellow;
+    font-family: courier;
+    font-size: 50px;
+}
+#hacked{
+    font-size: 100px;
+    margin-left: 20%;
+}
