@@ -2,7 +2,7 @@
 :root{
     --primary:#3DCFD3;
     --dark:#161616;
-    --pure:#FFFFFF;
+    --pure:hsl(0, 0%, 100%);
     --termary:#898989;
     --light:#F2F2F2;
     --secondary:#070606;
@@ -130,7 +130,7 @@ section.about .social a{
 section.about .social a img{
     width: 100%;
     height: 100%;
-    padding: .5rem;
+    padding: .5rem; 
 }
 section.about .social a:hover{
     background: var(--primary);
